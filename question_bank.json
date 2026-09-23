@@ -1,0 +1,1035 @@
+{
+  "course": "GLS109-03 Water Sustainability",
+  "semester": "Fall 2026",
+  "points_per_question": 10,
+  "questions_per_exam": 10,
+  "exams": {
+    "1": {
+      "title": "Exam 1",
+      "subtitle": "Scientific method, watersheds, water balance, precipitation / ET / stream discharge (no groundwater)"
+    },
+    "2": {
+      "title": "Exam 2",
+      "subtitle": "Groundwater, wells and pumping, water use"
+    },
+    "3": {
+      "title": "Exam 3",
+      "subtitle": "Water quality: road salt, basic water quality parameters, stream hydrographs"
+    }
+  },
+  "questions": [
+    {
+      "id": "E1-01",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F23 Exam 1 Q1; F22 Quiz 1 Q1",
+      "question": "Which statement is most true, and why?\n\n(a) Observations associated with the scientific process represent facts, in that all observers can gather the same data regardless of their understanding of the data.\n\n(b) Observations associated with the scientific process depend mostly on the person collecting the data, so different scientists will collect different \"values\" when observing the same phenomenon.",
+      "model_answer": "(a) is most true. Observations are measurements of the natural world, so anyone using the same method and properly working instruments should record the same values (within measurement uncertainty), whether or not they understand what the data mean. People may interpret the data differently, but the observation itself is a fact.",
+      "key_points": [
+        "Chooses (a)",
+        "Observations/measurements are repeatable by any observer using the same method",
+        "Distinguishes the observation (fact) from the interpretation (which can differ)"
+      ]
+    },
+    {
+      "id": "E1-02",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F23 Exam 1 Q2; F22 Quiz 1 Q2",
+      "question": "Give two things that must be true for a hypothesis to be valid. (This is not about whether the hypothesis is right or wrong, but whether it is in the correct form to be used in a scientific investigation.)",
+      "model_answer": "A valid hypothesis must be testable (you can design an observation or experiment that could support or reject it) and repeatable (others can run the same test and get comparable results). It must also be based on facts/observations rather than a random guess.",
+      "key_points": [
+        "Testable (falsifiable: a test could show it is wrong)",
+        "Repeatable by others",
+        "Based on facts/observations, not a guess (acceptable as one of the two)"
+      ]
+    },
+    {
+      "id": "E1-03",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F23 Exam 1 Q3; F22 Quiz 1 Q3",
+      "question": "Why is it that you, personally, can disagree with a hypothesis but NOT with a scientific theory?",
+      "model_answer": "A hypothesis is a proposed, testable explanation that has not yet been fully tested, so reasonable people can disagree until the data come in. A theory is a hypothesis that has been tested repeatedly, by many people, and has consistently held up and been peer reviewed. Disagreeing with a theory is not a matter of opinion; you would need new, repeatable data that the theory cannot explain.",
+      "key_points": [
+        "Hypothesis = testable explanation not yet (fully) tested",
+        "Theory = repeatedly tested and supported, peer reviewed",
+        "Challenging a theory requires new evidence, not personal opinion"
+      ]
+    },
+    {
+      "id": "E1-04",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F23 Exam 1 Q4; F22 Quiz 1 Q4",
+      "question": "If you tested a hypothesis, would you rather the results of the test support your hypothesis or reject your hypothesis? Explain.",
+      "model_answer": "A scientist should try to be objective and not prefer either outcome, because wanting a particular result can bias how data are collected and interpreted. Either result is useful: support adds confidence, while rejection tells us our understanding was wrong and points to a better hypothesis. Many scientists argue a rejection is especially valuable because it forces new learning.",
+      "key_points": [
+        "Addresses objectivity / bias",
+        "Both outcomes produce useful knowledge",
+        "Gives a clear, reasoned position (either choice acceptable if justified)"
+      ]
+    },
+    {
+      "id": "E1-05",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F25 Exam 1 Q3; F24 Practice Exam 1 Q3 (most/least important variants)",
+      "question": "Which component of the scientific method (observation, hypothesis development and testing, or peer-reviewed publication) is MOST important, and why?",
+      "model_answer": "Any choice can earn full credit if it is defended. Example: observation is most important because hypotheses must be based on facts, and without accurate observations there is nothing to test or publish. A strong answer also recognizes that the steps depend on each other: peer review checks that observations and tests were done correctly.",
+      "key_points": [
+        "Makes one clear choice",
+        "Correctly describes what that component does",
+        "Explains why the other steps depend on it (or acknowledges the steps are linked)"
+      ]
+    },
+    {
+      "id": "E1-06",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F24 Practice Exam 1 Q3",
+      "question": "A hypothesis is not a guess; it is based on factual data. Define what a scientific fact is.",
+      "model_answer": "A scientific fact is an observation or measurement of the natural world that is repeatable: anyone using the same method gets the same result (within measurement uncertainty). Facts are the data themselves, not the interpretation of the data.",
+      "key_points": [
+        "Observation or measurement",
+        "Repeatable / verifiable by others",
+        "Separate from interpretation or opinion"
+      ]
+    },
+    {
+      "id": "E1-07",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F25 Exam 1 Q10",
+      "question": "You toss a bean bag at a target several times and record how far it lands from the target each time, so the goal distance is 0.00 (in any unit). Give two average results: one showing HIGH accuracy but POOR precision, and one showing POOR accuracy but HIGH precision. Briefly explain each.",
+      "model_answer": "High accuracy, poor precision: individual tosses land at +40, -38, +35, -37 cm (scattered widely on both sides), but they average about 0 cm, close to the target. Poor accuracy, high precision: tosses land at 52, 51, 53, 52 cm, tightly grouped but averaging about 52 cm, far from the target. Accuracy = closeness to the true value; precision = closeness of repeated measurements to each other.",
+      "key_points": [
+        "Accuracy defined as closeness to the true/target value (0)",
+        "Precision defined as closeness of repeated measurements to each other (low spread)",
+        "Two example values/sets that correctly contrast the two cases"
+      ]
+    },
+    {
+      "id": "E1-08",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F24 Exam 1 (Real) Q8b",
+      "question": "You measure a stream cross-section of 22.05 square meters and a velocity of 0.34 m/s. Using Q = A x V, what is the discharge, and how many significant figures should you report? Explain.",
+      "model_answer": "Q = 22.05 m^2 x 0.34 m/s = 7.497 m^3/s. When multiplying, the answer keeps the smallest number of significant figures in the inputs. 0.34 has two significant figures, so report Q = 7.5 m^3/s.",
+      "key_points": [
+        "Correct calculation (about 7.497 m^3/s)",
+        "Rule: product keeps fewest significant figures of the inputs",
+        "Reports 7.5 m^3/s (2 significant figures) with units"
+      ]
+    },
+    {
+      "id": "E1-09",
+      "exam": 1,
+      "topic": "Scientific method",
+      "source": "F25 Exam 1 Bonus",
+      "question": "Scientific measurements are expressed to the appropriate number of significant figures. What is a significant figure? Be clear.",
+      "model_answer": "Significant figures are the digits in a measurement that are known with certainty plus the first estimated (uncertain) digit. They communicate the precision of the measurement, so reporting more digits than the instrument can measure claims precision you do not have.",
+      "key_points": [
+        "Digits known reliably plus one estimated digit",
+        "Reflect the precision of the measuring tool",
+        "Extra digits imply false precision"
+      ]
+    },
+    {
+      "id": "E1-10",
+      "exam": 1,
+      "topic": "Watersheds",
+      "source": "New (based on F24 Exam 1 study guide)",
+      "question": "What is a watershed? Describe what defines its boundaries.",
+      "model_answer": "A watershed is the area of land where precipitation that falls drains to a common outlet (a stream, river, lake, or the ocean). Its boundaries are drainage divides, the high ridges and hilltops set by topography that separate water flowing to one outlet from water flowing to another.",
+      "key_points": [
+        "Area that drains to a common outlet",
+        "Boundaries are topographic divides (ridges/high points)",
+        "Mentions precipitation/surface water draining downslope"
+      ]
+    },
+    {
+      "id": "E1-11",
+      "exam": 1,
+      "topic": "Watersheds",
+      "source": "F25 Exam 1 Q5",
+      "question": "Watersheds do not align with geo-political boundaries (towns, states, countries). Why not?",
+      "model_answer": "Watershed boundaries are set by topography: water flows downhill to a common outlet, so divides follow ridges and high ground. Political boundaries were drawn by people for historical, economic, or convenience reasons (surveyed straight lines, rivers used as borders), not by where water drains. As a result one watershed often spans several towns or states.",
+      "key_points": [
+        "Watershed boundaries are natural (topography/drainage divides)",
+        "Political boundaries are human-drawn for other reasons",
+        "Consequence: watersheds cross multiple jurisdictions"
+      ]
+    },
+    {
+      "id": "E1-12",
+      "exam": 1,
+      "topic": "Watersheds",
+      "source": "F24 Exam 1 (Real) Q5",
+      "question": "Three towns sit on parts of one large watershed. Only one town has substantial water storage (two lakes); the other two only have a stream running through them toward the lakes. A stream flows from the second lake to the ocean. There is no appreciable groundwater. From a water sustainability standpoint, who gets the surface water, and why?",
+      "model_answer": "No single town owns the water, because it is all part of one connected watershed: rain falling in the upstream towns feeds the lakes. Water use by upstream towns reduces inflow to the lakes, and use at the lakes reduces outflow to the ocean. Sustainable use requires the towns to manage the watershed together, sharing the water so total withdrawals do not drive storage (delta S) down over time.",
+      "key_points": [
+        "Recognizes the water is shared at the watershed scale",
+        "Upstream use affects downstream storage and flow",
+        "Ties sustainability to keeping storage from declining (water balance) or to cooperative management"
+      ]
+    },
+    {
+      "id": "E1-13",
+      "exam": 1,
+      "topic": "Watersheds",
+      "source": "F24 Practice Exam 1 Q5",
+      "question": "When we build a water budget for a community like Salem to make sure there is enough water, why can't water-use decisions be made by Salem's administration alone?",
+      "model_answer": "Salem is only part of the watershed(s) that supply and receive its water. Water that reaches Salem depends on what happens upstream in other towns, and Salem's withdrawals and discharges affect communities downstream. Because the watershed crosses town (and sometimes state) lines, decisions have to be coordinated across all the communities that share it.",
+      "key_points": [
+        "Watershed extends beyond town boundaries",
+        "Upstream actions affect Salem; Salem affects downstream users",
+        "Requires regional / shared decision-making"
+      ]
+    },
+    {
+      "id": "E1-14",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "F25 Exam 1 Q6",
+      "question": "Write the general water balance equation for the whole Earth, and explain what it tells us at that scale.",
+      "model_answer": "Delta S = I - O (change in storage = inputs - outputs). For the whole Earth, essentially no water enters from or leaves to space, so total storage does not change: delta S is about 0 and inputs equal outputs. Water only moves between reservoirs (ocean, atmosphere, ice, land); for example, global precipitation equals global evaporation plus evapotranspiration.",
+      "key_points": [
+        "Delta S = I - O",
+        "Earth is (essentially) a closed system, so delta S = 0 and I = O",
+        "Water moves between reservoirs rather than being gained or lost"
+      ]
+    },
+    {
+      "id": "E1-15",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "F23 Exam 1 Q5; F22 Quiz 1 Q5",
+      "question": "Why do we use the hydrologic (water balance) equation, and not the hydrologic cycle, to monitor water in our watersheds?",
+      "model_answer": "The hydrologic cycle is a conceptual picture of how water moves between reservoirs; it does not give numbers. The water balance equation (delta S = I - O) is quantitative: we can measure the inputs (precipitation) and outputs (ET, stream discharge) and calculate whether storage is increasing, decreasing, or staying the same. Monitoring requires numbers we can measure and compare over time.",
+      "key_points": [
+        "Cycle is descriptive/conceptual",
+        "Equation is quantitative, uses measurable terms",
+        "Lets us calculate change in storage to judge sustainability"
+      ]
+    },
+    {
+      "id": "E1-16",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "F24 Exam 1 (Real) Q6",
+      "question": "For a local watershed, the only terms are precipitation (in) and stream discharge (out). Write the water balance equation with these terms. What must be true if delta S = 0?",
+      "model_answer": "Delta S = P - Q. If delta S = 0, then precipitation equals stream discharge (P = Q): all water that falls on the watershed leaves through the stream, and storage in the watershed does not change.",
+      "key_points": [
+        "Delta S = P - Q (inputs minus outputs)",
+        "If delta S = 0 then P = Q",
+        "Interprets: storage unchanged, inflow balances outflow"
+      ]
+    },
+    {
+      "id": "E1-17",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "F23 Exam 1 Q9",
+      "question": "Using delta S = I - O, explain what happens to a watershed when outputs are greater than inputs. Show it mathematically and in words.",
+      "model_answer": "If O > I, then I - O is negative, so delta S < 0. In words, the watershed is losing more water than it receives, so stored water (in lakes, reservoirs, soil) declines. If this continues over time, the water supply is not sustainable.",
+      "key_points": [
+        "Mathematically: O > I gives delta S < 0",
+        "Storage decreases",
+        "Links continued decline to unsustainable use"
+      ]
+    },
+    {
+      "id": "E1-18",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "F25 Exam 3 Bonus (adapted: units changed to inches/year)",
+      "question": "A watershed receives 1.0 inch/year of precipitation and loses 0.8 inch/year as stream discharge. Evapotranspiration (ET) is the only other output. If storage in the watershed does not change, how much ET must occur each year? Show your equation.",
+      "model_answer": "Delta S = P - (Q + ET). With delta S = 0: 0 = 1.0 - (0.8 + ET), so ET = 0.2 inch/year.",
+      "key_points": [
+        "Sets up delta S = P - (Q + ET)",
+        "Uses delta S = 0",
+        "ET = 0.2 inch/year with units"
+      ]
+    },
+    {
+      "id": "E1-19",
+      "exam": 1,
+      "topic": "Water balance equation",
+      "source": "New",
+      "question": "In one year a watershed receives 40 inches of precipitation. ET removes 20 inches and stream discharge removes 18 inches (expressed as depth over the watershed). Calculate delta S. Is the watershed gaining or losing stored water?",
+      "model_answer": "Delta S = P - (ET + Q) = 40 - (20 + 18) = +2 inches. Delta S is positive, so the watershed is gaining stored water (storage increased by 2 inches over the watershed area).",
+      "key_points": [
+        "Correct equation with P, ET, Q",
+        "Delta S = +2 inches",
+        "Interprets positive delta S as gaining storage"
+      ]
+    },
+    {
+      "id": "E1-20",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F25 Exam 1 Q7",
+      "question": "A student placed several rain gauges throughout a watershed. After a storm, the gauges held different depths of water. What is the most likely reason?",
+      "model_answer": "Rain does not fall evenly across a watershed. Storms vary in intensity from place to place, and topography (hills, valleys) and local conditions affect how much rain falls at each spot. Differences in evaporation from gauges or obstruction by trees/buildings can add smaller errors.",
+      "key_points": [
+        "Uneven (spatially variable) rainfall across the watershed",
+        "Mentions a cause (storm variability, topography)",
+        "Optional: gauge placement/evaporation as secondary errors"
+      ]
+    },
+    {
+      "id": "E1-21",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F24 Exam 1 (Real) Q7; F23 Exam 1 Q6; F22 Quiz 1 Q6",
+      "question": "Under what conditions can we get away with using a single rain gauge to estimate rainfall over an entire watershed? Be specific.",
+      "model_answer": "When rain falls evenly over the whole watershed. That is most likely when the watershed is small and has fairly uniform topography, and the storm is broad and even rather than patchy (like scattered thunderstorms). Under those conditions, the depth in one gauge represents the depth everywhere in the watershed.",
+      "key_points": [
+        "Rainfall must be uniform across the watershed",
+        "Small watershed and/or uniform topography",
+        "Gauge depth then equals depth over the whole watershed"
+      ]
+    },
+    {
+      "id": "E1-22",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "New (based on rain gauge volume, V = pi r^2 x depth)",
+      "question": "A storm drops 2 cm of rain evenly over a 10 km^2 watershed. What volume of water (in m^3) fell on the watershed? Show your unit conversions.",
+      "model_answer": "Depth = 2 cm = 0.02 m. Area = 10 km^2 = 10 x 1,000,000 m^2 = 10,000,000 m^2. Volume = depth x area = 0.02 m x 10,000,000 m^2 = 200,000 m^3.",
+      "key_points": [
+        "Converts cm to m and km^2 to m^2 correctly",
+        "Volume = depth x area",
+        "200,000 m^3 (2 x 10^5 m^3)"
+      ]
+    },
+    {
+      "id": "E1-23",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F25 Exam 1 Q8; F23 Exam 1 Q7; F24 Exam 1 (Real) Q8a",
+      "question": "What are the units of stream discharge? Why must we ultimately put stream discharge into the same units as our rainfall before using the water balance equation?",
+      "model_answer": "Stream discharge is a volume per time (for example m^3/s or ft^3/s). Rainfall is usually reported as a depth (inches or cm) over a time period. You can only add or subtract terms in delta S = I - O if they have the same units, so we convert discharge to a depth over the watershed area (or convert rainfall to volume per time) before comparing inputs and outputs.",
+      "key_points": [
+        "Discharge units: volume/time",
+        "Rainfall is a depth (per time)",
+        "Terms must have the same units to add/subtract in the equation; convert using watershed area"
+      ]
+    },
+    {
+      "id": "E1-24",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F22 Quiz 1 Q8 (adapted); F24 Exam 1 study guide",
+      "question": "Explain how you would measure the discharge of a small stream in the field.",
+      "model_answer": "Measure the cross-sectional area of the stream by measuring its width and the water depth at several points across it (A = width x average depth). Measure the flow velocity, for example by timing a float over a known distance or using a flow meter. Multiply: Q = A x V, giving volume per time (m^3/s).",
+      "key_points": [
+        "Cross-sectional area from width and depths",
+        "Velocity measurement method",
+        "Q = A x V with volume/time units"
+      ]
+    },
+    {
+      "id": "E1-25",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F25 Exam 2 Q1; F25 Practice Exam 2 Q1",
+      "question": "Why does stream discharge generally increase as you move downstream? Explain.",
+      "model_answer": "As you move downstream, the stream drains a larger and larger area of the watershed. Tributaries join the main channel and add their water, along with runoff from the additional land, so more water passes each point per unit time.",
+      "key_points": [
+        "Drainage area increases downstream",
+        "Tributaries/runoff add water",
+        "Discharge = more volume per time"
+      ]
+    },
+    {
+      "id": "E1-26",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F24 Practice Exam 1 Q7",
+      "question": "Define evapotranspiration (ET) and explain its role in the water balance equation.",
+      "model_answer": "ET is the combined loss of water to the atmosphere by evaporation (liquid water turning to vapor from water and land surfaces) and transpiration (water vapor released by plants). We combine them because they are hard to measure separately. In the water balance equation ET is an output (discharge) from the watershed: delta S = P - (ET + Q).",
+      "key_points": [
+        "Evaporation + transpiration",
+        "Water lost to the atmosphere as vapor",
+        "ET is an output/discharge term in the equation"
+      ]
+    },
+    {
+      "id": "E1-27",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "New (based on F24 PET example)",
+      "question": "A watershed receives 45 inches of precipitation in a year. Potential evapotranspiration (PET) for the area is 50% of precipitation. How much water is lost to ET, and how much remains in the watershed? Show your work.",
+      "model_answer": "ET = 45 in x 0.50 = 22.5 inches lost to the atmosphere. Remaining = 45 - 22.5 = 22.5 inches left in the watershed (available for stream discharge or storage).",
+      "key_points": [
+        "Converts 50% to 0.50 and multiplies",
+        "ET = 22.5 inches",
+        "Remaining = 22.5 inches"
+      ]
+    },
+    {
+      "id": "E1-28",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "New (based on F24 ET study guide)",
+      "question": "Name three factors that increase the rate of evaporation, and explain why one of them works.",
+      "model_answer": "Higher temperature, lower humidity, stronger wind, and larger exposed water surface area all increase evaporation (more vegetation increases transpiration). Example: wind carries away moist air above the water surface and replaces it with drier air, so the air does not saturate and evaporation continues.",
+      "key_points": [
+        "Three valid factors (temperature, humidity, wind, surface area, vegetation)",
+        "Correct explanation for at least one"
+      ]
+    },
+    {
+      "id": "E1-29",
+      "exam": 1,
+      "topic": "Precipitation, ET & stream discharge",
+      "source": "F23 Exam 1 Bonus 1",
+      "question": "When measuring stream flow, hydrologists also measure the water depth (stage) at a fixed spot near where discharge is measured. Why would they measure stage?",
+      "model_answer": "Once discharge has been measured at many different stages, a relationship (rating curve) between stage and discharge can be built. After that, simply measuring the stage, which is easy to record continuously, lets you estimate discharge at any time without re-measuring velocity and area.",
+      "key_points": [
+        "Stage relates to discharge",
+        "Builds a rating curve from repeated measurements",
+        "Allows continuous/easy discharge estimates"
+      ]
+    },
+
+    {
+      "id": "E2-01",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F22 Exam 2 Practice Q1; F19 Quiz 3 Q1",
+      "question": "What is the water table? Be specific.",
+      "model_answer": "The water table is the top of the saturated zone, the surface below which all pore spaces in sediment or rock are filled with water. Above it is the unsaturated zone, where pores hold both air and water. In a well, the water level marks the water table (hydraulic head at that point).",
+      "key_points": [
+        "Top of the saturated zone",
+        "Below it, pores are completely filled with water",
+        "Distinguishes from unsaturated zone above"
+      ]
+    },
+    {
+      "id": "E2-02",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F25 Exam 2 Q3; F24 Q3; F23 Q2; F22",
+      "question": "Porosity and permeability are always paired together, but they are not the same. What is the difference between them?",
+      "model_answer": "Porosity is the percentage of a rock or sediment's volume that is open space (pores), so it describes how much water the material can store. Permeability is how easily water can flow through the material, which depends on how large and well connected the pores are. A material can have high porosity but low permeability if its pores are tiny or poorly connected.",
+      "key_points": [
+        "Porosity = amount of open space (storage)",
+        "Permeability = ease of flow (transmission), depends on pore connectivity/size",
+        "Notes they can differ (e.g., high porosity, low permeability)"
+      ]
+    },
+    {
+      "id": "E2-03",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F25 Exam 2 Q8; F24 Q8; F23 Q7",
+      "question": "Explain why sand with reasonable porosity and permeability makes a good aquifer, but mud with very low permeability makes a poor aquifer, even though the mud has a higher porosity than the sand.",
+      "model_answer": "An aquifer must both store water and release it to a well at a useful rate. Sand has enough porosity to store water and large, well-connected pores, so water flows readily to a well. Mud has many tiny, poorly connected pores; it holds a lot of water, but that water is held tightly and moves very slowly, so a well in mud yields almost nothing.",
+      "key_points": [
+        "Aquifer must store AND transmit/yield water",
+        "Sand: connected pores, good permeability",
+        "Mud: high porosity but very low permeability, water cannot move to a well"
+      ]
+    },
+    {
+      "id": "E2-04",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F22 Exam 2 Practice Q6; F19 Quiz 3 Q6",
+      "question": "Which will be the best aquifer (all the same size)? Explain why you chose it AND why you did not choose the others.\n\n(a) Homogeneous sand, medium porosity and medium permeability\n(b) Homogeneous mud, very high porosity and very low permeability\n(c) Heterogeneous fractured igneous rock, very low porosity and high permeability",
+      "model_answer": "(a) Sand. It both stores a reasonable amount of water and transmits it, and because it is homogeneous, a well anywhere should yield predictably. Mud (b) stores lots of water but its very low permeability means it will not release it to a well. Fractured igneous rock (c) transmits water through fractures, but its very low porosity means little storage, and because it is heterogeneous, a well only produces if it hits connected fractures.",
+      "key_points": [
+        "Chooses (a) sand",
+        "Rejects mud: low permeability",
+        "Rejects fractured rock: low storage and heterogeneous/unpredictable"
+      ]
+    },
+    {
+      "id": "E2-05",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F25 Exam 2 Q2; F24 Q2; F23 Q1",
+      "question": "Where the water table intersects Earth's surface, rivers and lakes form. Is the water table therefore below the surface of those lakes and rivers? Explain.",
+      "model_answer": "No. Where a lake or river is fed by groundwater, the water surface IS the water table exposed at the land surface. Surface water forms there because the land surface has dropped below the top of the saturated zone, so groundwater seeps out and fills the low spot.",
+      "key_points": [
+        "Answers no",
+        "Lake/river surface is the exposed water table",
+        "Land surface is below the water table level, so groundwater discharges there"
+      ]
+    },
+    {
+      "id": "E2-06",
+      "exam": 2,
+      "topic": "Groundwater basics",
+      "source": "F22 Final Q1",
+      "question": "Lakes are flat, and a lake surface is the exposed water table. Why then is the water table under the land NOT flat?",
+      "model_answer": "Groundwater moves very slowly through small pores, so friction resists flow and water cannot level itself out the way it does in an open lake. Recharge under hills builds the water table up, while discharge to streams and lakes draws it down in valleys. The result is a water table that roughly follows (is a subdued replica of) the land surface.",
+      "key_points": [
+        "Slow flow through pores / resistance prevents leveling",
+        "Recharge highs vs discharge lows",
+        "Water table mimics topography in subdued form"
+      ]
+    },
+    {
+      "id": "E2-07",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Practice Exam 2 Q4; F24 Exam 2 guide",
+      "question": "How do we know that groundwater is moving at all (not which direction, just that it moves)?",
+      "model_answer": "We measure hydraulic head (the water level) in several wells. If the heads differ, there is a hydraulic gradient, and groundwater flows from higher head to lower head. If all wells had the same head there would be no gradient and no flow.",
+      "key_points": [
+        "Measure hydraulic head in multiple wells",
+        "Difference in head means a gradient",
+        "Flow from high to low head; equal heads = no flow"
+      ]
+    },
+    {
+      "id": "E2-08",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Exam 2 Q4",
+      "question": "What does the hydraulic gradient (dh/dl) indicate? Be clear.",
+      "model_answer": "The hydraulic gradient is the change in hydraulic head (dh) over the distance between measurement points (dl), which is the slope of the water table. It indicates the direction groundwater flows (from high to low head) and how steep that slope is: a steeper gradient drives faster flow and greater discharge.",
+      "key_points": [
+        "Change in head / distance = water table slope",
+        "Indicates flow direction (high to low head)",
+        "Steeper gradient = faster flow/greater discharge"
+      ]
+    },
+    {
+      "id": "E2-09",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Exam 2 Q5",
+      "question": "Why is the slope of the water table unitless? Then round this slope to two significant figures: 0.0928539.",
+      "model_answer": "Slope = rise/run = dh/dl, and both are lengths measured in the same units (for example m/m), so the units cancel. Rounded to two significant figures, 0.0928539 is 0.093 (leading zeros are not significant).",
+      "key_points": [
+        "Rise and run in same length units cancel",
+        "0.093",
+        "Leading zeros are not significant"
+      ]
+    },
+    {
+      "id": "E2-10",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Practice Exam 2 Q5; F22 Practice Q7",
+      "question": "Darcy's Law is Q = -KSA (or Q = -KA dh/dl). Explain what Q, the negative sign, K, S, and A each represent.",
+      "model_answer": "Q is groundwater discharge (volume per time). K is hydraulic conductivity, which depends on the aquifer material's permeability and the fluid. S (dh/dl) is the hydraulic gradient, the slope of the water table. A is the cross-sectional area the water flows through. The negative sign shows that water flows in the direction of decreasing head (downslope on the water table).",
+      "key_points": [
+        "Q = discharge (volume/time)",
+        "K = hydraulic conductivity (material/permeability)",
+        "S = hydraulic gradient; A = cross-sectional area",
+        "Negative sign = flow toward decreasing head"
+      ]
+    },
+    {
+      "id": "E2-11",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F22 Exam 2 Practice Q8",
+      "question": "In lab you found that groundwater discharge depends on slope. Using Darcy's Law, explain what happens to groundwater discharge if the water table slope decreases.",
+      "model_answer": "Q = -KSA. Q is directly proportional to S, so if the slope (S) decreases while K and A stay the same, discharge (Q) decreases by the same factor. For example, halving the slope halves the discharge.",
+      "key_points": [
+        "Uses Q = -KSA",
+        "Q proportional to S",
+        "Lower slope = lower discharge (with K, A constant)"
+      ]
+    },
+    {
+      "id": "E2-12",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Exam 2 Q7 (adapted from diagram to text)",
+      "question": "Three wells have these hydraulic heads: Well A = 572 ft, Well C = 571 ft, Well D = 571 ft. Which line is the strike line of the water table, and which direction does groundwater flow relative to it?",
+      "model_answer": "Wells C and D have equal heads (571 ft), so the line connecting C and D is the strike line (a line of equal head). Groundwater flows perpendicular to that line, in the downhill direction: away from Well A (572 ft, higher head) toward and past the C-D line.",
+      "key_points": [
+        "Strike line connects C and D (equal heads)",
+        "Flow is perpendicular (90 degrees) to strike",
+        "Flow is from A's side (high head) toward lower head"
+      ]
+    },
+    {
+      "id": "E2-13",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "New (based on F24 Exam 2 guide example)",
+      "question": "Two wells 200 m apart along the flow direction have heads of 50 m and 46 m. The aquifer has K = 10 m/day and a cross-sectional area of 100 m^2. Calculate the hydraulic gradient and the groundwater discharge (ignore the negative sign; just give the magnitude).",
+      "model_answer": "Gradient S = dh/dl = (50 - 46) m / 200 m = 0.02 (unitless). Q = K x S x A = 10 m/day x 0.02 x 100 m^2 = 20 m^3/day.",
+      "key_points": [
+        "S = 4/200 = 0.02",
+        "Q = K S A",
+        "Q = 20 m^3/day with units"
+      ]
+    },
+    {
+      "id": "E2-14",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F22 Exam 2 Practice Q9",
+      "question": "In lab, dye traces showed groundwater flowing uphill. Why can groundwater flow uphill when rivers cannot?",
+      "model_answer": "Groundwater does not flow simply by elevation; it flows from high hydraulic head to low hydraulic head, and head includes pressure as well as elevation. Water under pressure in the saturated zone can be pushed upward (for example, rising into a stream or spring) if the head is lower there. A river is open to the air at atmospheric pressure, so only gravity drives it downhill.",
+      "key_points": [
+        "Groundwater flows from high to low hydraulic head",
+        "Head includes pressure, not just elevation",
+        "River is unconfined at the surface, flows only downhill by gravity"
+      ]
+    },
+    {
+      "id": "E2-15",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F25 Practice Exam 2 Q11; F23 Exam 2 Bonus",
+      "question": "Darcy's Law (Q = -KSA) and stream discharge (Q = VA) together give groundwater velocity V = -KS, where K is hydraulic conductivity (cm/s) and S is the water table slope (unitless). Is V more like -K or more like S? Defend your answer.",
+      "model_answer": "V is more like K. K already has units of velocity (cm/s), and S is unitless, so V has exactly the same units as K; S just scales K up or down. K sets the basic speed water can move through the material, and the gradient determines what fraction of that speed actually occurs.",
+      "key_points": [
+        "Chooses K",
+        "Unit argument: K and V both length/time, S unitless",
+        "S acts as a scaling factor on K"
+      ]
+    },
+    {
+      "id": "E2-16",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F23 Exam 2 Q3-Q4; F22 Final Q3-Q4 (adapted from sketch to text)",
+      "question": "Describe the difference between a gaining stream and a losing stream. Where is the water table relative to the stream in each case, and which way does groundwater flow?",
+      "model_answer": "In a gaining stream, the water table is higher than the stream surface and slopes toward the stream, so groundwater flows into the stream and supplies baseflow. In a losing stream, the water table is below the stream bed, so water flows out of the stream downward into the ground. Gaining streams are typical in humid areas like New England.",
+      "key_points": [
+        "Gaining: water table above stream, sloping toward it; groundwater flows into stream (baseflow)",
+        "Losing: water table below stream; stream water flows into the ground",
+        "Correct flow directions"
+      ]
+    },
+    {
+      "id": "E2-17",
+      "exam": 2,
+      "topic": "Groundwater flow & Darcy's Law",
+      "source": "F23 Exam 2 Q5; F22 Final Q5 (adapted from sketch to text)",
+      "question": "Someone dumps chemicals on a hillside above a valley stream, and it starts to rain, carrying the chemicals down to the water table. Describe what the water table would have to look like for the chemicals to flow AWAY from the stream.",
+      "model_answer": "Groundwater follows the water table slope from high to low head, so the water table beneath the dump site must slope away from the stream. That could happen if there is a groundwater divide (a high point in the water table) between the dump site and the stream, or if a pumping well on the far side lowers the water table there. Chemicals would then move downgradient, away from the stream.",
+      "key_points": [
+        "Contaminants follow groundwater flow from high to low head",
+        "Water table at the site must slope away from the stream",
+        "Gives a plausible cause (groundwater divide, pumping well, etc.)"
+      ]
+    },
+    {
+      "id": "E2-18",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "F22 Exam 2 Practice Q10",
+      "question": "What is a cone of depression? Give one example of when a cone of depression is good and one when it is bad.",
+      "model_answer": "A cone of depression is the cone-shaped drawdown of the water table around a pumping well, because water is removed faster than it can flow in. Good: it creates a gradient that draws water (or a contaminant plume, in a pump-and-treat cleanup) toward the well. Bad: it can lower the water table enough to dry up nearby wells, reduce baseflow to streams, or pull in saltwater or contaminants.",
+      "key_points": [
+        "Drawdown of water table around a pumping well",
+        "Valid good example (supplies water, captures contamination)",
+        "Valid bad example (dries neighboring wells, reduces streamflow, saltwater/contaminant intrusion)"
+      ]
+    },
+    {
+      "id": "E2-19",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "F23 Exam 2 Q8",
+      "question": "Discuss at least two variables that cause the cone of depression around a pumping well to grow larger. (\"Drill the well deeper\" is not allowed.)",
+      "model_answer": "Pumping rate: pumping faster removes more water than flows in, deepening and widening the cone. Pumping duration: the longer the well pumps, the farther the cone spreads. Aquifer properties (K/permeability) control the shape: low permeability produces a deep, steep cone, while high permeability spreads it wider. Low recharge and nearby pumping wells whose cones overlap also make it grow.",
+      "key_points": [
+        "At least two valid variables (rate, duration, K/permeability, recharge, nearby wells)",
+        "Explains how each causes growth"
+      ]
+    },
+    {
+      "id": "E2-20",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "New (based on F24 Exam 2 guide: pumping can reverse flow)",
+      "question": "A coastal town pumps heavily from wells near the ocean. Normally groundwater flows from land toward the sea. Explain how heavy pumping could change groundwater flow and what the consequence could be.",
+      "model_answer": "The cone of depression lowers the water table near the wells. If it drops below the level that keeps fresh groundwater flowing seaward, the hydraulic gradient reverses and water flows from the ocean toward the wells. The result is saltwater intrusion: the wells begin to pump salty water that is unusable for drinking.",
+      "key_points": [
+        "Pumping lowers water table / cone of depression",
+        "Gradient and flow direction can reverse",
+        "Saltwater intrusion contaminates wells"
+      ]
+    },
+    {
+      "id": "E2-21",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "F25 Exam 2 Q9; F24 Q9",
+      "question": "At the watershed scale, groundwater is neither an input nor an output in the water balance equation. Why is it still important to monitor?",
+      "model_answer": "Groundwater is a storage term: it is part of delta S. It supplies baseflow that keeps streams running between storms and during dry seasons, and it is the water supply for many wells. Monitoring groundwater levels tells us whether storage is declining from pumping or drought before streams and wells run dry.",
+      "key_points": [
+        "Groundwater is part of storage (delta S)",
+        "Supplies baseflow and drinking water",
+        "Declining levels signal unsustainable use"
+      ]
+    },
+    {
+      "id": "E2-22",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "F25 Exam 2 Q10",
+      "question": "A chemical is spilled on a road like Route 1A. Which direction does it typically move, and where does it ultimately end up?",
+      "model_answer": "Some of it runs off with rain into storm drains and ditches, which usually discharge directly to nearby streams or wetlands. The rest soaks in and moves down to the water table, then flows with groundwater from high to low head. Both paths ultimately lead to discharge points such as streams, wetlands, and eventually the ocean, and it can reach wells along the way.",
+      "key_points": [
+        "Surface runoff to storm drains/streams",
+        "Infiltration to groundwater, then flow downgradient",
+        "Ends up in streams/wetlands/ocean (or wells)"
+      ]
+    },
+    {
+      "id": "E2-23",
+      "exam": 2,
+      "topic": "Wells & pumping",
+      "source": "F25 Exam 2 Bonus",
+      "question": "Why is groundwater discharge measured in volume/time units?",
+      "model_answer": "Discharge is a flux: it tells us how much water moves through the aquifer (or out of it) in a given amount of time. Volume per time (for example m^3/day) lets us compare groundwater flow directly with other fluxes like stream discharge, and with pumping and water-use rates, in the water balance.",
+      "key_points": [
+        "Discharge is a rate/flux",
+        "Volume moving per unit time",
+        "Allows comparison with other fluxes/water use"
+      ]
+    },
+    {
+      "id": "E2-24",
+      "exam": 2,
+      "topic": "Water use",
+      "source": "New (based on F20 Final Q6 and F22 Quiz 1 Q10)",
+      "question": "Using a \"typical\" water use of 2,000 gallons per person per day, how much water does a town of 40,000 people need per day? Per year? Show your work.",
+      "model_answer": "Per day: 40,000 people x 2,000 gal/person/day = 80,000,000 gallons/day (8.0 x 10^7). Per year: 80,000,000 x 365 = 29,200,000,000 gallons/year (about 2.9 x 10^10).",
+      "key_points": [
+        "80,000,000 gallons/day",
+        "About 2.9 x 10^10 gallons/year",
+        "Shows units through the calculation"
+      ]
+    },
+    {
+      "id": "E2-25",
+      "exam": 2,
+      "topic": "Water use",
+      "source": "F20 Final Q6",
+      "question": "In class we estimated a city's water needs by multiplying our class's average water use by the city's population. What assumptions or limitations affect this result, and how could you make it more accurate?",
+      "model_answer": "The estimate assumes our class is typical of everyone in the city, but age, income, household size, and lifestyle all change water use. Our per-person value may include indirect (embedded) water in food and products that is not drawn from local supplies, and it ignores commercial, industrial, and municipal use and seasonal changes. It could be improved with actual utility records of water delivered, a larger and more representative sample, and separating direct from indirect use.",
+      "key_points": [
+        "Sample not representative of the population",
+        "Direct vs indirect/embedded use, non-residential use, seasonal variation",
+        "Suggests a concrete improvement (utility data, larger sample)"
+      ]
+    },
+    {
+      "id": "E2-26",
+      "exam": 2,
+      "topic": "Water use",
+      "source": "New (based on F22 Quiz 1 Q10)",
+      "question": "After ET, 730,000,000 gallons of recharge remain in a watershed each year. You may only use 50% of it. At 2,000 gallons per person per day, how many people can this water supply? Show each step.",
+      "model_answer": "Allowed use: 730,000,000 x 0.50 = 365,000,000 gallons/year. Per day: 365,000,000 / 365 = 1,000,000 gallons/day. People: 1,000,000 / 2,000 = 500 people.",
+      "key_points": [
+        "Applies 50%: 365,000,000 gal/yr",
+        "Converts to per day: 1,000,000 gal/day",
+        "500 people"
+      ]
+    },
+
+    {
+      "id": "E3-01",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "F23 Exam 1 Q10 (adapted: figure described in words)",
+      "question": "The same storm hits a rural watershed and an urban watershed of equal size. The rural stream's hydrograph shows a low, broad pulse, while the urban stream shows a rapid, tall spike. Why the difference?",
+      "model_answer": "Urban watersheds are covered with impervious surfaces (pavement, roofs) and storm drains, so rain cannot infiltrate and instead runs off quickly and directly to the stream, producing a fast, high peak. In the rural watershed, soil and vegetation let water infiltrate and travel slowly through the ground, so it reaches the stream gradually, giving a lower, broader peak.",
+      "key_points": [
+        "Impervious surfaces/storm drains in urban area",
+        "Less infiltration, faster runoff = tall, quick peak",
+        "Rural infiltration/slow flow paths = low, broad peak"
+      ]
+    },
+    {
+      "id": "E3-02",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "F24/F25 Exam 3 Q7",
+      "question": "A healthy watershed has a long lag time between peak rainfall and peak streamflow. Urbanization shortens that lag time. What causes this change in hydrograph shape?",
+      "model_answer": "Lag time depends on how long water takes to reach the stream. Urbanization replaces soil and vegetation with impervious surfaces and pipes, so water that used to soak in and move slowly through the ground now runs quickly across pavement and through storm drains. Water arrives sooner and all at once, so peak flow comes earlier and higher.",
+      "key_points": [
+        "Lag time = delay between rainfall peak and discharge peak",
+        "Impervious surfaces reduce infiltration",
+        "Faster flow paths (storm drains) deliver water sooner"
+      ]
+    },
+    {
+      "id": "E3-03",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "On a storm hydrograph, define baseflow, the rising limb, the recession limb, and lag time.",
+      "model_answer": "Baseflow is the steady flow supplied by groundwater between storms. The rising limb is the increase in discharge as storm runoff reaches the stream. The recession limb is the gradual decline in discharge after the peak as runoff drains away. Lag time is the time between peak rainfall and peak discharge.",
+      "key_points": [
+        "Baseflow = groundwater contribution",
+        "Rising limb and recession limb correctly described",
+        "Lag time = rainfall peak to discharge peak"
+      ]
+    },
+    {
+      "id": "E3-04",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "F24/F25 Exam 3 Q6",
+      "question": "Hydrographs show that rivers in our area (e.g., Charles, Merrimack) tend to reach low flow in late summer and fall, in line with historical trends. What is the main cause of this low flow: climate change, water use, or seasonal changes? Explain.",
+      "model_answer": "Mainly seasonal change. During the growing season, warm temperatures and leafy plants drive high evapotranspiration, so much of the rain returns to the atmosphere instead of recharging groundwater. Groundwater levels and baseflow decline through summer and reach their lows in late summer to fall. Because the pattern matches historical trends, it is primarily seasonal; flow recovers after leaf-off when ET drops and recharge resumes.",
+      "key_points": [
+        "Identifies seasonal change as the main cause",
+        "High ET in growing season reduces recharge",
+        "Reduced groundwater/baseflow; matches historical pattern"
+      ]
+    },
+    {
+      "id": "E3-05",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "What is a hydrograph? Describe one broad (long-term) pattern and one fine-scale (short-term) feature you might see on a year-long hydrograph.",
+      "model_answer": "A hydrograph is a graph of a water parameter, usually stream discharge, plotted against time. A broad pattern is the seasonal cycle, such as high flow in spring and low flow in late summer/fall (or tides at a coastal station). A fine-scale feature is a sharp spike from an individual rain event, followed by a recession back toward baseflow.",
+      "key_points": [
+        "Graph of discharge (or other parameter) vs time",
+        "Valid broad pattern (seasons, tides)",
+        "Valid fine feature (storm event peak)"
+      ]
+    },
+    {
+      "id": "E3-06",
+      "exam": 3,
+      "topic": "Stream hydrographs",
+      "source": "F25 Exam 2 Q6; F25 Practice Exam 2 Q6",
+      "question": "Give at least one consequence of increased urbanization for stream discharge hydrographs, and explain it.",
+      "model_answer": "Higher, faster flood peaks after storms: impervious surfaces send runoff straight to the stream, increasing flooding and erosion. Another consequence is lower baseflow between storms, because less water infiltrates to recharge the groundwater that feeds the stream.",
+      "key_points": [
+        "Valid consequence (higher/faster peaks, shorter lag time, lower baseflow, more flooding)",
+        "Explanation tied to impervious surfaces/reduced infiltration"
+      ]
+    },
+    {
+      "id": "E3-07",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "F24/F25 Exam 3 Q5",
+      "question": "The basic water quality parameters are specific conductance, dissolved oxygen, temperature, pH, and turbidity. Which ONE is most important for evaluating the health of an aquatic system? Explain your choice.",
+      "model_answer": "Any parameter can earn full credit if defended. Example: dissolved oxygen, because fish and most aquatic organisms need it to survive, and low DO (hypoxia) kills them quickly. DO also reflects other parameters: warmer water holds less oxygen, and pollution that feeds decomposition uses it up.",
+      "key_points": [
+        "Chooses one parameter",
+        "Correctly explains what it measures/why it matters to aquatic life",
+        "Strong answers connect it to other parameters"
+      ]
+    },
+    {
+      "id": "E3-08",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "How are water temperature and dissolved oxygen related, and why does that matter for aquatic life?",
+      "model_answer": "Cold water can hold more dissolved oxygen than warm water. As water warms (in summer, from urban runoff off hot pavement, or from climate change), its DO decreases. At the same time, warmer temperatures raise organisms' metabolic oxygen demand, so warm water can become stressful or hypoxic for fish.",
+      "key_points": [
+        "Inverse relationship: warmer water holds less oxygen",
+        "Gives a cause of warming",
+        "Consequence for aquatic life (stress/hypoxia)"
+      ]
+    },
+    {
+      "id": "E3-09",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "What does pH measure, what is the typical range for natural waters, and how can dissolved CO2 affect it?",
+      "model_answer": "pH measures how acidic or basic water is (the hydrogen ion concentration) on a 0-14 scale, where 7 is neutral and lower is more acidic. Natural waters are typically between about pH 6 and 8. CO2 dissolves in water to form carbonic acid, which lowers pH, so more dissolved CO2 makes water more acidic.",
+      "key_points": [
+        "Acidity/basicity (hydrogen ions), 7 neutral",
+        "Natural range about 6-8",
+        "CO2 forms carbonic acid and lowers pH"
+      ]
+    },
+    {
+      "id": "E3-10",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "What is turbidity, how is it measured, and why is high turbidity a problem?",
+      "model_answer": "Turbidity is the cloudiness of water caused by suspended particles such as sediment and algae. It is measured by how much light is scattered, in nephelometric turbidity units (NTU). High turbidity blocks sunlight for aquatic plants, can clog fish gills and bury habitat, carries attached pollutants and microbes, and makes drinking water harder to treat.",
+      "key_points": [
+        "Cloudiness from suspended particles",
+        "Measured by light scattering in NTU",
+        "At least one valid negative effect"
+      ]
+    },
+    {
+      "id": "E3-11",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "New (based on F24 Exam 3 study guide)",
+      "question": "What does specific conductance measure, and why is it called \"specific\" conductance?",
+      "model_answer": "Specific conductance measures how well water conducts electricity, which depends on the amount of dissolved ions (salts) in it: more ions give higher conductance. Conductivity changes with temperature, so specific conductance is the value corrected to a standard temperature (25 degrees C), which lets measurements from different times and places be compared directly.",
+      "key_points": [
+        "Ability to conduct electricity",
+        "Proportional to dissolved ions/salts",
+        "\"Specific\" = standardized to 25 C for comparison"
+      ]
+    },
+    {
+      "id": "E3-12",
+      "exam": 3,
+      "topic": "Water quality parameters",
+      "source": "F24/F25 Exam 3 Q2",
+      "question": "Specific conductance values from USGS monitoring stations can be considered factual. What is a fact, and why is this water quality data factual?",
+      "model_answer": "A fact is a repeatable observation or measurement: anyone measuring the same thing the same way gets the same result. USGS specific conductance data are measured with calibrated instruments using standard, documented methods and checked for quality, so another person measuring the same water at the same time would get the same value. The numbers are observations, not interpretations.",
+      "key_points": [
+        "Fact = repeatable observation/measurement",
+        "Calibrated instruments and standard methods",
+        "Data are observations, separate from interpretation"
+      ]
+    },
+    {
+      "id": "E3-13",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "F24/F25 Exam 3 Q1",
+      "question": "In lab, a student's equation converted specific conductance to chloride concentration in mg/L. Given the importance of mass-normalized units, why is it acceptable to report chloride in mg/L instead of mg/kg (ppm) for these stream samples?",
+      "model_answer": "Stream water is fresh and dilute, so its density is very close to 1 kg per liter. That means 1 L of water has a mass of about 1 kg, and mg/L is essentially equal to mg/kg (ppm). The difference is too small to matter, while mg/L is the unit in which the data and standards are commonly reported.",
+      "key_points": [
+        "Freshwater density about 1 kg/L",
+        "Therefore mg/L approximately equals mg/kg (ppm)",
+        "Error is negligible for dilute water (would not hold for brines/seawater)"
+      ]
+    },
+    {
+      "id": "E3-14",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "New",
+      "question": "Why does specific conductance in local streams rise sharply during and after winter storms when roads are salted?",
+      "model_answer": "Road salt (mostly sodium chloride) dissolves in meltwater into sodium and chloride ions. That salty meltwater runs off roads into storm drains and streams. More dissolved ions means the water conducts electricity better, so specific conductance spikes.",
+      "key_points": [
+        "Salt dissolves into ions (Na+, Cl-)",
+        "Meltwater/runoff carries it to streams",
+        "More ions = higher conductance"
+      ]
+    },
+    {
+      "id": "E3-15",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "New",
+      "question": "In many New England streams, chloride concentrations are rising year-round, even in summer when no salt is applied. Explain why.",
+      "model_answer": "Part of the road salt infiltrates into the ground and enters groundwater instead of running off. Chloride is not taken up by plants, soil, or chemical reactions, so it stays dissolved and accumulates in groundwater storage over many winters. That salty groundwater then discharges to streams as baseflow all year, raising summer chloride levels a little more each year.",
+      "key_points": [
+        "Salt infiltrates to groundwater",
+        "Chloride is conservative/not removed, accumulates over years",
+        "Returns to streams as baseflow year-round"
+      ]
+    },
+    {
+      "id": "E3-16",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "F25 Practice Exam 2 Q10 (adapted)",
+      "question": "Explain why dumping chemicals on a lawn is harmful to water resources. Then explain why dumping them on the street is also harmful, and how the path to water differs.",
+      "model_answer": "On a lawn, chemicals soak into the soil and percolate down to the water table, contaminating groundwater that feeds wells and, through baseflow, streams. On a street, chemicals are washed by rain into storm drains, which usually discharge directly to streams, ponds, or the ocean without treatment, so they reach surface water quickly and in concentrated form.",
+      "key_points": [
+        "Lawn: infiltration to groundwater (wells, baseflow)",
+        "Street: runoff to storm drains, directly to surface water",
+        "Notes storm drains are generally untreated"
+      ]
+    },
+    {
+      "id": "E3-17",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "New",
+      "question": "Describe two harmful effects of road salt on water resources, and one way a town could reduce them.",
+      "model_answer": "Harmful effects: chloride at high concentrations is toxic to aquatic organisms; sodium in drinking water supplies is a concern for people on sodium-restricted diets; salty water is corrosive and can release metals like lead from pipes; and dense salty water can settle at the bottom of lakes and prevent mixing. Towns can reduce impacts by applying less salt with calibrated spreaders, pre-wetting roads with brine, covering salt storage piles, and designating reduced-salt zones near reservoirs and wells.",
+      "key_points": [
+        "Two valid harms (aquatic toxicity, drinking water sodium/chloride, pipe corrosion, lake stratification)",
+        "One valid mitigation strategy"
+      ]
+    },
+    {
+      "id": "E3-18",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "New",
+      "question": "You dissolve 0.5 g of salt in 2.0 L of fresh water. What is the concentration in mg/L, and approximately what is it in ppm? Show your work.",
+      "model_answer": "0.5 g = 500 mg. Concentration = 500 mg / 2.0 L = 250 mg/L. Because fresh water is about 1 kg per liter, this is about 250 mg/kg, or about 250 ppm.",
+      "key_points": [
+        "Converts g to mg (500 mg)",
+        "250 mg/L",
+        "About 250 ppm with density reasoning"
+      ]
+    },
+    {
+      "id": "E3-19",
+      "exam": 3,
+      "topic": "Road salt & units",
+      "source": "New (hypothetical equation; not the student-derived lab equation)",
+      "question": "Suppose a (hypothetical) relationship for a stream is: chloride (mg/L) = 0.3 x specific conductance (uS/cm) - 20. A winter sample has a specific conductance of 1,000 uS/cm. Calculate the chloride concentration. The U.S. EPA chronic aquatic-life criterion for chloride is 230 mg/L. Does this sample exceed it?",
+      "model_answer": "Chloride = 0.3 x 1,000 - 20 = 300 - 20 = 280 mg/L. That is above 230 mg/L, so it exceeds the chronic aquatic-life criterion (if sustained, aquatic organisms could be harmed).",
+      "key_points": [
+        "Correct substitution",
+        "280 mg/L",
+        "States it exceeds 230 mg/L"
+      ]
+    },
+    {
+      "id": "E3-20",
+      "exam": 3,
+      "topic": "Water quality & the water balance",
+      "source": "F25 Exam 3 Q10",
+      "question": "For much of the course we used the water balance (hydrologic) equation. How can water quality be combined with the water balance equation? Be clear.",
+      "model_answer": "Multiplying a concentration (mass per volume) by a water flux (volume per time) gives a mass flux, or load, of a chemical (mass per time). We can then write a mass balance for a substance like chloride: change in stored chloride = chloride in - chloride out. This shows whether pollutants are accumulating in a watershed and how dilution changes concentrations as water inputs and outputs change.",
+      "key_points": [
+        "Concentration x discharge = load (mass/time)",
+        "Mass balance: change in storage of a chemical = in - out",
+        "Application (accumulation, dilution, tracking sources)"
+      ]
+    },
+    {
+      "id": "E3-21",
+      "exam": 3,
+      "topic": "Water quality & the water balance",
+      "source": "New",
+      "question": "A stream has a discharge of 2 m^3/s and a chloride concentration of 100 mg/L. What is the chloride load in kg per day? (1 m^3 = 1,000 L; 1 day = 86,400 s)",
+      "model_answer": "Discharge = 2 m^3/s x 1,000 L/m^3 = 2,000 L/s. Load = 2,000 L/s x 100 mg/L = 200,000 mg/s = 0.2 kg/s. Per day: 0.2 kg/s x 86,400 s/day = 17,280 kg/day (about 17,000 kg/day).",
+      "key_points": [
+        "Converts m^3 to L",
+        "Load = Q x concentration",
+        "About 17,280 kg/day with units"
+      ]
+    },
+    {
+      "id": "E3-22",
+      "exam": 3,
+      "topic": "Water quality & the water balance",
+      "source": "New",
+      "question": "The same amount of road salt reaches a stream during two storms. In storm 1 the stream discharge is low; in storm 2 it is high. In which storm is the chloride concentration higher, and why?",
+      "model_answer": "Storm 1 (low discharge). Concentration = mass / volume of water. With the same mass of salt, a smaller volume of water gives a higher concentration, while the larger discharge in storm 2 dilutes the salt.",
+      "key_points": [
+        "Chooses low-discharge storm",
+        "Concentration = mass/volume",
+        "Dilution by higher discharge"
+      ]
+    },
+    {
+      "id": "E3-23",
+      "exam": 3,
+      "topic": "Water quality & the water balance",
+      "source": "F24/F25 Exam 3 Q9",
+      "question": "What is your biggest concern with respect to water quality in the U.S. and the future of our water resources? Explain.",
+      "model_answer": "Answers vary. A strong answer names a specific, real issue (for example, rising chloride from road salt, PFAS \"forever chemicals,\" lead pipes, nutrient runoff causing algal blooms, or warming water lowering dissolved oxygen), explains how it gets into water, and explains why it threatens people or ecosystems now or in the future.",
+      "key_points": [
+        "Names a specific water quality issue",
+        "Explains its source/pathway into water",
+        "Explains its consequence for people or ecosystems"
+      ]
+    }
+  ]
+}
